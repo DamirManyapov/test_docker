@@ -17,4 +17,4 @@ RUN apt-get update \
 
 RUN wget https://getcomposer.org/installer -O - -q | php -- --install-dir=/bin --filename=composer --quiet
 
-WORKDIR /srv
+WORKDIR /var/www/html
