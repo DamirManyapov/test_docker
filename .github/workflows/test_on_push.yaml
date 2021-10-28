@@ -26,6 +26,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./postgres
-          file: /postgres/Dockerfile
+          file: ./postgres/Dockerfile
           push: true
           tags: registry.blogademy.org/pg_test:latest
